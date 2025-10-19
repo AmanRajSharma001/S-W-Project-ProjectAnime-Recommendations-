@@ -32,6 +32,7 @@ body{
 .nav a:hover{
     background-image: linear-gradient(to bottom,rgb(255, 192, 203,0.3),rgba(237, 148, 148, 0.3));
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #search{
@@ -52,7 +53,7 @@ body{
 .navigation1{
     box-sizing: border-box;
     background-color: rgb(45, 43, 68);
-    position: fixed;
+    position: absolute;
     top:57%;
     left: 0;
     width: 99.55%;
@@ -74,15 +75,61 @@ body{
 .nav2 a:hover{
     background-image: linear-gradient(to bottom,rgb(255, 192, 203,0.3),rgba(237, 148, 148, 0.3));
     border-radius: 10px;
+    cursor: pointer;
 }
 
-/* .Popular{
+.Trending{
+    position: relative;
     background-color: rgb(45, 43, 68);
-    margin-top: 25px;
+    margin-top:6.5%;
     color: pink;
-    width: 101%;
-    height: 1000px;
-    margin-left: -1%;
+    width: 99.55%;
+    left: -1%;
+    padding-left: 25px;
+    height: auto;
+}
+
+.Trending .one a{
+    padding-left: 30px;
+    position: absolute;
+}
+
+.one span{
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+}
+.one .name{
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    font-size: 30px;
+    left: -25px;
+    transform: rotate(-90deg);
+}
+.Trending .two a{
+    padding-left: 300px;
+
+}
+
+.two span{
+    position: absolute;
+    bottom: 0;
+    left: 290px;
+    font-size: 25px;
+}
+.two .name{
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    font-size: 30px;
+    left: 240px;
+    transform: rotate(-90deg);
+}
+
+/* .Anime{
+    position: absolute;
+    padding-left: 25px;
 } */
 /* .Popular h2{
     padding: 8px;
