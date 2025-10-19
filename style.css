@@ -12,27 +12,79 @@ body{
     box-sizing: border-box;
     background-color: rgb(45, 43, 68);
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
-    width: 100%;
-    padding-left: 150px;
-    margin: 0;
+    width: 99.5%;
+    height: 60px;
     z-index: 1000;
+    padding-left: 100px;
 }
+
 .nav a{
-    padding: 30px;
+    padding: 20px;
     color: white;
     text-decoration: none;
     display: inline-block;
+    z-index: 1000;
+
 }
 
 .nav a:hover{
-    background-image: linear-gradient(to right,#6610f2,#6f42c1);
-    border-radius: 20px;
+    background-image: linear-gradient(to bottom,rgb(255, 192, 203,0.3),rgba(237, 148, 148, 0.3));
+    border-radius: 10px;
+}
+
+#search{
+    margin-top: 12px;
+    margin-right: 20px;
+    width: 300px;
+    padding: 10px;
+    float:right;
+    font-size: 15px;
+    border: none;
 }
 
 .banner{
-    width: 102%;
+    width: 101%;
     margin-top: 4.5%;
     margin-left: -1%;
 }
+.navigation1{
+    box-sizing: border-box;
+    background-color: rgb(45, 43, 68);
+    position: fixed;
+    top:57%;
+    left: 0;
+    width: 99.55%;
+    padding-left: 150px;
+    margin: 0;
+    margin-top: 0.5%;
+    z-index: 1000;
+    height: 60px
+}
+.nav2 a{
+    padding: 20px;
+    color: rgb(255, 192, 203);
+    text-decoration: none;
+    display: inline-block;
+    z-index: 1000;
+    font-size: 20px;
+}
+
+.nav2 a:hover{
+    background-image: linear-gradient(to bottom,rgb(255, 192, 203,0.3),rgba(237, 148, 148, 0.3));
+    border-radius: 10px;
+}
+
+/* .Popular{
+    background-color: rgb(45, 43, 68);
+    margin-top: 25px;
+    color: pink;
+    width: 101%;
+    height: 1000px;
+    margin-left: -1%;
+} */
+/* .Popular h2{
+    padding: 8px;
+    padding-left: 20px;
+} */
