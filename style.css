@@ -21,7 +21,7 @@ body{
 }
 
 .nav a{
-    padding: 20px;
+    padding: 21px;
     color: white;
     text-decoration: none;
     display: inline-block;
@@ -35,7 +35,7 @@ body{
     cursor: pointer;
 }
 
-#search{
+#asearch{
     margin-top: 12px;
     margin-right: 20px;
     width: 300px;
@@ -57,14 +57,14 @@ body{
     top:57%;
     left: 0;
     width: 99.55%;
-    padding-left: 150px;
+    padding-left: 80px;
     margin: 0;
     margin-top: 0.5%;
     z-index: 1000;
     height: 60px
 }
 .nav2 a{
-    padding: 20px;
+    padding: 19px;
     color: rgb(255, 192, 203);
     text-decoration: none;
     display: inline-block;
@@ -78,60 +78,70 @@ body{
     cursor: pointer;
 }
 
-.Trending{
+.Trending {
     position: relative;
+    text-align: center;
+    margin-top: 40px;
     background-color: rgb(45, 43, 68);
-    margin-top:6.5%;
+    top: 60px;
+}
+
+.Trending .header h2 {
+    font-size: 36px;
     color: pink;
-    width: 99.55%;
-    left: -1%;
-    padding-left: 25px;
-    height: auto;
+    margin-bottom: 10px;
 }
 
-.Trending .one a{
-    padding-left: 30px;
-    position: absolute;
+.Trending .one,
+.Trending .two,
+.Trending .three,
+.Trending .four,
+.Trending .five {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
 }
 
-.one span{
-    position: absolute;
-    bottom: 0;
-    font-size: 25px;
+.Trending img{
+    border-radius: 15px;
 }
-.one .name{
-    color: white;
+
+.Trending .number {
     position: absolute;
-    bottom: 80px;
-    font-size: 30px;
-    left: -25px;
+    bottom: 15px;
+    left: -30px;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 1;
+    color: pink;
+}
+
+.Trending .name {
+    position: absolute;
+    bottom: 65px;
+    left: 0;
     transform: rotate(-90deg);
-}
-.Trending .two a{
-    padding-left: 300px;
-
-}
-
-.two span{
-    position: absolute;
-    bottom: 0;
-    left: 290px;
-    font-size: 25px;
-}
-.two .name{
-    color: white;
-    position: absolute;
-    bottom: 80px;
+    transform-origin: left bottom;
     font-size: 30px;
-    left: 240px;
-    transform: rotate(-90deg);
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+    white-space: nowrap;
 }
 
-/* .Anime{
+.one{
+    position: relative;
+}
+
+.Anime{
+    display: none;
     position: absolute;
-    padding-left: 25px;
-} */
-/* .Popular h2{
-    padding: 8px;
-    padding-left: 20px;
-} */
+    bottom: 35%;
+    left: 50%;
+    right: 0;
+    background-color: #201f31;
+}
+.one:hover .Anime{
+    display: block;
+    z-index: 3;
+}
