@@ -1,9 +1,10 @@
 body{
-    background-color: #201f31;
+    background-image: linear-gradient(to right, #0B132B, #1C2541, #3A506B);
+
 }
 .logo{
     position: fixed;
-    z-index: 1001;
+    z-index: 1005;
     top: 0;
     left: 2%;
 }
@@ -12,13 +13,13 @@ body{
 }
 .navigation{
     box-sizing: border-box;
-    background-color: rgb(45, 43, 68);
+    background-image: linear-gradient(to right, #1C2541, #3A506B);
     position: fixed;
     top: 0;
     left: 0;
     width: 99.5%;
     height: 60px;
-    z-index: 1000;
+    z-index: 1004;
     padding-left: 100px;
 }
 
@@ -54,12 +55,12 @@ body{
 }
 .navigation1{
     box-sizing: border-box;
-    background-color: rgb(45, 43, 68);
+    background-image: linear-gradient(to right, #1C2541, #3A506B);
     position: absolute;
     top:57%;
     left: 0;
     width: 99.55%;
-    padding-left: 80px;
+    padding-left: 120px;
     margin: 0;
     margin-top: 0.5%;
     z-index: 1000;
@@ -85,13 +86,13 @@ body{
     position: relative;
     text-align: center;
     margin-top: 40px;
-    background-color: rgb(45, 43, 68);
+    background-image: linear-gradient(to right, #1C2541, #3A506B);
     top: 60px;
 }
 
 .Trending .header h2 {
     font-size: 36px;
-    color: pink;
+    color: white;
     margin-bottom: 10px;
 }
 
@@ -107,6 +108,11 @@ body{
 
 .Trending img{
     border-radius: 15px;
+}
+
+.Trending img:hover{
+    box-shadow: white 2px 2px 20px;
+    transition: 0.1s all;
 }
 
 .Trending .number {
@@ -125,7 +131,7 @@ body{
     left: 0;
     transform: rotate(-90deg);
     transform-origin: left bottom;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
     z-index: 2;
@@ -135,7 +141,11 @@ body{
 .one{
     position: relative;
 }
-
+.first-section{
+    margin-bottom: 50px;
+}
+.second-section{
+    margin-bottom: 50px;}
 .Anime{
     display: none;
     position: absolute;
