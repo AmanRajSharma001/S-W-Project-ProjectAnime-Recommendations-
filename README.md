@@ -12,10 +12,10 @@ Move info regarding the same is either provided below or you can check out "More
 
 
 
-                                * NOTE: Please Open index.html as its "HOME PAGE". *
+                        * NOTE: Please Open index.html as its "HOME PAGE". *
 
 
-                                    *Link for the website will be proved soon!!*
+                            *Link for the website will be provided soon!!*
 
 
-                                                    THANK YOU!!!
+                                            THANK YOU!!!
