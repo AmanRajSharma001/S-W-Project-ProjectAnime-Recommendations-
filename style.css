@@ -1,35 +1,35 @@
 body{
     background-image: linear-gradient(to right, #0B132B, #1C2541, #3A506B);
+}
 
-}
-.logo{
+.navigation {
+    padding: 5px 25px;
     position: fixed;
-    z-index: 1005;
-    top: 0;
-    left: 2%;
-}
-.logo:hover{
-    cursor: pointer;
-}
-.navigation{
-    box-sizing: border-box;
+    display: flex;
     background-image: linear-gradient(to right, #1C2541, #3A506B);
-    position: fixed;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
     top: 0;
     left: 0;
-    width: 99.5%;
-    height: 60px;
-    z-index: 1004;
-    padding-left: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
 }
 
-.nav a{
-    padding: 21px;
-    color: white;
+.nav a {
+    padding: 25px;
     text-decoration: none;
-    display: inline-block;
-    z-index: 1000;
+    color: white;
+    font-size: 15px;
+}
 
+.navigation #asearch {
+    width: 400px;
+    padding: 10px;
+    font-size: 15px;
+    max-width: 100%;
 }
 
 .nav a:hover{
@@ -38,34 +38,34 @@ body{
     cursor: pointer;
 }
 
-#asearch{
-    margin-top: 12px;
-    margin-right: 20px;
-    width: 300px;
-    padding: 10px;
-    float:right;
-    font-size: 15px;
-    border: none;
+.navigation form {
+    position: absolute;
+    right: 30px;
 }
 
-.banner{
-    width: 101%;
-    margin-top: 4.5%;
-    margin-left: -1%;
+.banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+    object-fit: cover;
+    margin-bottom: 20px;
 }
-.navigation1{
+
+.navigation1 {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     background-image: linear-gradient(to right, #1C2541, #3A506B);
-    position: absolute;
-    top:57%;
     left: 0;
-    width: 99.55%;
-    padding-left: 200px;
+    width: 100%;
     margin: 0;
-    margin-top: 0.5%;
     z-index: 1000;
-    height: 60px
 }
+
 .nav2 a{
     padding: 19px;
     color: rgb(255, 192, 203);
@@ -96,11 +96,7 @@ body{
     margin-bottom: 10px;
 }
 
-.Trending .one,
-.Trending .two,
-.Trending .three,
-.Trending .four,
-.Trending .five {
+.Trending .one{
     position: relative;
     display: inline-block;
     margin: 20px;
@@ -127,7 +123,7 @@ body{
     color: pink;
 }
 
-.Trending .name {
+.Trending .name{
     position: absolute;
     bottom: 65px;
     left: 0;
