@@ -1,6 +1,6 @@
 Hello, Welcome to My Project on the topic "ANIME RECOMMENDATION" website.
 
-I've created this website to suggest some of my handpicked animes as well as through various sources such as IMDB and Google etc.. 
+I've created this website to suggest some of my handpicked animes as well as through various sources such as IMDB,  Google etc.. 
 
 There will be a welcome video presented at the homepage so please do watch it :)
 
