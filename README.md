@@ -13,6 +13,7 @@ Move info regarding the same is either provided below or you can check out "More
 
 
                         * NOTE: Please Open index.html as its "HOME PAGE". *
+        * NOTE2: All Videos in one page might take around (30seconds to 1:15minutes) to load. *
 
 
                             *Link for the website will be provided soon!!*
