@@ -8,7 +8,7 @@ All the suggested animes have their own "AMV(Anime Music Video)" when you hover 
 
 It helps showcase few clips of the same anime.
 
-Move info regarding the same is either provided below or you can check out "More Info" button or "click the image" to get to know about it better.
+More info regarding the same is either provided below or you can check out "More Info" button or "click the image" to get to know about it better.
 
 
 
