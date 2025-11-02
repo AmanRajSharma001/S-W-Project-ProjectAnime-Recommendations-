@@ -104,13 +104,12 @@ body{
 
 .Trending img{
     border-radius: 15px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
-.Trending img:hover{
-    box-shadow: white 2px 2px 20px;
-    transition: 0.5s all;
-    cursor: pointer;
-    margin-bottom: 15px;
+.Trending .one:hover img{
+  transform: translateY(-15px);
+  box-shadow: 2px 2px 20px rgb(255, 255, 255);
 }
 
 .Trending .number {
