@@ -1,13 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body{
-  background-image: linear-gradient(to right, #0B132B, #1C2541, #3A506B);
-  overflow-x: hidden;
-    
+    background-color: #0B132B;
+    background-image: linear-gradient(to right, #0B132B, #1C2541, #3A506B);
 }
 
 .navigation {
@@ -23,7 +16,7 @@ body{
     left: 0;
     width: 100%;
     box-sizing: border-box;
-    z-index: 1000;
+    z-index: 1001;
 }
 
 .nav a {
@@ -56,7 +49,6 @@ body{
     width: 100%;
     height: auto;
     margin-top: 90px;
-    object-fit: cover;
     margin-bottom: 20px;
 }
 
@@ -93,8 +85,9 @@ body{
 .Trending {
     position: relative;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     background-image: linear-gradient(to right, #1C2541, #3A506B);
+
 }
 
 .Trending .header h2 {
@@ -150,9 +143,7 @@ body{
 }
 .second-section{
     margin-bottom: 50px;}
-
 .Anime{
-    padding: 10px;
     display: none;
     position: absolute;
     bottom: 35%;
@@ -165,7 +156,7 @@ body{
 .one:hover .Anime{
     display: block;
     z-index: 1002;
-    width: 320px;
+    width: 310px;
     text-align: left;
     padding-left: 10px;
     font-weight: bold;
@@ -184,4 +175,24 @@ footer p{
     z-index: 1100;
     letter-spacing: 5px;
     word-spacing: 5px;
+}
+
+.Trending > video{
+    width: 1200px;
+}
+
+.Trending + video{
+    width: 800px;
+    height: 500px;
+}
+
+@media (max-width:1220px){
+    .Trending > video{
+        object-fit: cover;
+        width: 100%;
+    }
+    .Trending + video{
+        object-fit: cover;
+        width: 100%;
+    }
 }

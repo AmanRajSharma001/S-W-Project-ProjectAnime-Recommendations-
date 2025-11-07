@@ -176,3 +176,23 @@ footer p{
     letter-spacing: 5px;
     word-spacing: 5px;
 }
+
+.Trending > video{
+    width: 1200px;
+}
+
+.Trending + video{
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width:1220px){
+    .Trending > video{
+        object-fit: cover;
+        width: 100%;
+    }
+    .Trending + video{
+        object-fit: cover;
+        width: 100%;
+    }
+}
