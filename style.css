@@ -190,7 +190,7 @@ footer p{
     .Trending > video{
         object-fit: cover;
         width: 100%;
-        height: auto;
+        height: fit-content;
     }
     .Trending + video{
         object-fit: cover;
