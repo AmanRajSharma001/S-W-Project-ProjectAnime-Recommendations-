@@ -18,7 +18,7 @@ More info regarding the same is either provided below or you can check out "More
 
                             *Link for the website will be provided soon!!*
                       *Use any browser oher than safari to load videos quickly*
-                            https://amanrajsharma001.github.io/S-W-Project-ProjectAnime-Recommendations-/
+            https://amanrajsharma001.github.io/S-W-Project-ProjectAnime-Recommendations-/
 
 
                                             THANK YOU!!!
